@@ -1,0 +1,38 @@
+[project]
+name = "conditional-multi-series"
+version = "0.1.0"
+description = "Support material for the article on per-series conditional permutation importance in global forecasting models."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "skforecast>=0.19.1",
+    "xeries>=0.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "pytest>=9.0.3",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.15.10",
+    "ty>=0.0.1a17",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = ["notebooks/*.ipynb"]
+
+[tool.ty.environment]
+python-version = "3.11"

@@ -1,0 +1,22 @@
+{
+  "best_lags": [
+    1,
+    2,
+    7,
+    14,
+    21,
+    28
+  ],
+  "best_params": {
+    "n_estimators": 441,
+    "learning_rate": 0.055874573945977626,
+    "num_leaves": 40,
+    "max_depth": 4,
+    "min_child_samples": 16,
+    "reg_alpha": 0.00051611156757311,
+    "reg_lambda": 0.017353279091115007
+  },
+  "n_trials": 20,
+  "random_seed": 42,
+  "metric": "mean_squared_error"
+}

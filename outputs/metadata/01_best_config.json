@@ -13,7 +13,7 @@
     "reg_alpha": 2.7294040169384375,
     "reg_lambda": 0.0001463213583757832
   },
-  "n_trials": 120,
+  "n_trials": 300,
   "random_seed": 42,
   "metric": "mean_squared_error"
 }

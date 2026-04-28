@@ -1,0 +1,41 @@
+{
+  "notebook": "Fixed Model Importance Robustness Analysis",
+  "approach": "Single model trained once, applied to multiple test seeds",
+  "baseline_seed": 42,
+  "n_test_seeds": 3,
+  "test_seed_list": [
+    123,
+    456,
+    789
+  ],
+  "groups": [
+    "group_a",
+    "group_b"
+  ],
+  "n_groups": 2,
+  "n_series_per_group": 3,
+  "total_series": 6,
+  "exog_features": [
+    "exog_feature_1",
+    "exog_feature_2",
+    "exog_feature_3"
+  ],
+  "n_exog_features": 3,
+  "exog_feature_docs": {
+    "exog_feature_1": "Temperature (continuous): affects group_a (urban) only",
+    "exog_feature_2": "Holiday flag (binary): affects group_b (rural) only",
+    "exog_feature_3": "Promotion (binary): affects all groups equally"
+  },
+  "n_days": 1825,
+  "tuning_n_trials": 50,
+  "importance_n_repeats": 20,
+  "model_parameters": {
+    "best_lags": [
+      1,
+      2,
+      3
+    ],
+    "n_estimators": 320,
+    "learning_rate": 0.13574165644927697
+  }
+}

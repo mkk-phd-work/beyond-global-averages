@@ -5,13 +5,13 @@
     3
   ],
   "best_params": {
-    "n_estimators": 459,
-    "learning_rate": 0.0929474362539201,
-    "num_leaves": 21,
-    "max_depth": 8,
-    "min_child_samples": 29,
-    "reg_alpha": 2.7294040169384375,
-    "reg_lambda": 0.0001463213583757832
+    "n_estimators": 345,
+    "learning_rate": 0.0826219235992138,
+    "num_leaves": 19,
+    "max_depth": 5,
+    "min_child_samples": 19,
+    "reg_alpha": 0.00018877564360292686,
+    "reg_lambda": 1.03713889465978e-07
   },
   "n_trials": 300,
   "random_seed": 42,
